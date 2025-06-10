@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #1976d2;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  flex-grow: 1;
+  font-weight: bold;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #bbdefb;
+}
+
+.navbar-search {
+  flex-grow: 2;
+  margin: 0 16px;
+  min-width: 200px;
+}
+
+.navbar-buttons > * {
+  margin-left: 10px;
+}
